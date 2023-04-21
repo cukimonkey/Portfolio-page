@@ -15,8 +15,13 @@ const LandingSection = () => (
     alignItems="center"
     isDarkBackground
     backgroundColor="#2A4365"
+    fontSize="50px"
+    
   >
-<Avatar alt="Ursula Armstrong" src={process.env.PUBLIC_URL + "/avatar1.jpg"} sx={{ width: 56, height: 56 }}/>
+  <Avatar alt="Ursula Armstrong" src={process.env.PUBLIC_URL + "/avatar1.jpg"} sx={{ width: 56, height: 56 }}/>
+  <h1 style={{fontSize: "20px"}}>{greeting}</h1> <br></br>
+  <h2>{bio1}</h2>
+  <h2>{bio2}</h2>
   </FullScreenSection>
   
 );
