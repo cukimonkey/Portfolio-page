@@ -20,7 +20,7 @@ const socials = [
   },
   {
     icon: faLinkedin,
-    url: "https://www.linkedin.com",
+    url: "https://www.linkedin.com/in/orsolya-armstrong-9b949437/",
   },
   {
     icon: faMedium,

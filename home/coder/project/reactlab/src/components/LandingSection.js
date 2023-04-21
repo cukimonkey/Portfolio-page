@@ -2,7 +2,8 @@ import React from "react";
 import { Avatar, Heading, VStack } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 
-const greeting = "Hello, I am Pete!";
+
+const greeting = "Hello, I am Ursula!";
 const bio1 = "A frontend developer";
 const bio2 = "specialised in React";
 
@@ -15,8 +16,9 @@ const LandingSection = () => (
     isDarkBackground
     backgroundColor="#2A4365"
   >
-
+<Avatar alt="Ursula Armstrong" src={process.env.PUBLIC_URL + "/avatar1.jpg"} sx={{ width: 56, height: 56 }}/>
   </FullScreenSection>
+  
 );
 
 export default LandingSection;
